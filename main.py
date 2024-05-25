@@ -2,10 +2,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 import utils
 
-from dotenv import load_dotenv
-load_dotenv()
-import os
-API_KEY = os.environ.get("OPENAI_API_KEY")
+API_KEY="sk-proj-bRPrhFKYf7t1O4LDQWvST3BlbkFJXaszzt1aLrsdMarGklAY"
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
