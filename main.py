@@ -2,7 +2,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 import utils
 
-API_KEY="sk-proj-bRPrhFKYf7t1O4LDQWvST3BlbkFJXaszzt1aLrsdMarGklAY"
+API_KEY="sk-proj-b1AYnonr7cnlR26VZColT3BlbkFJVZbnH3hQsEHdahGS8cCu"
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
