@@ -11,7 +11,6 @@ if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
 
 # st.title('🦜🔗 AI Assistant chatbot')
-
 # openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
 # def generate_response(input_text):
@@ -41,7 +40,7 @@ st.session_state['OPENAI_API_KEY'] = API_KEY
 st.set_page_config(page_title="Chatbot", page_icon="💬")
 st.header('Anuar AI')
 st.write('Intelligent platform designed to help students find suitable universities based on their specific criteria')
-st.write('[![view source code ](https://img.shields.io/badge/view_source_code-gray?logo=github)](https://github.com/shashankdeshpande/langchain-chatbot/blob/master/pages/1_%F0%9F%92%AC_basic_chatbot.py)')
+#st.write('[![view source code ](https://img.shields.io/badge/view_source_code-gray?logo=github)](https://github.com/shashankdeshpande/langchain-chatbot/blob/master/pages/1_%F0%9F%92%AC_basic_chatbot.py)')
 
 class StreamHandler(BaseCallbackHandler):
     
