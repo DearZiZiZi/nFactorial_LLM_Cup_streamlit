@@ -29,8 +29,8 @@ if "messages" not in st.session_state:
 # st.session_state['OPENAI_API_KEY'] = API_KEY
 
 
-st.header('Basic Chatbot')
-st.write('Allows users to interact with the LLM')
+st.header('Anuar AI')
+st.write('An intelligent platform designed to help students find suitable universities based on their specific criteria')
 
 class StreamHandler(BaseCallbackHandler):
     
